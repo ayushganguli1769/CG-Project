@@ -1,0 +1,32 @@
+body
+{
+    background-color: #333;
+    overflow-x: hidden;
+}
+.wrapper {
+    padding:25px;
+    max-width:1500px;
+    width:100%;
+    text-align:center;
+    margin:0 auto;
+  
+}
+#time{
+    background-color:#333;
+    font-family: sans-serif;
+    font-size:200px;
+    color:#fff;
+}
+#time span {
+    color:#888;
+    font-size:300px;
+    position:relative;
+    top:-5px;
+    left:10px;
+}
+#date {
+    letter-spacing:10px;
+    font-size:80px;
+    font-family:arial,sans-serif;
+    color:#fff;
+}

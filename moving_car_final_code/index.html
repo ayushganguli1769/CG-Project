@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Moving Car</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+   <input type="hidden" value="0" id="bool_check">
+    <div class="container">
+        <div style="position: absolute ; z-index: 3;"><a href="#" class="button" onclick="fn1(this)" >START CAR</a></div>
+        <div id="sky">
+            <div id="trees"></div>
+            <div id="track"></div>
+            <div id="car">
+                <div class="wheel wheel1">
+                    <img src="car_wheel_left.png" id ="wheel1_img" alt="">
+                </div>
+                <div class="wheel wheel2">
+                    <img src="car_wheel_right.png" id ="wheel2_img" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

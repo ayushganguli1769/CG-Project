@@ -18,7 +18,6 @@ function showTime() {
     {
         suffix_time = "<span style='color:yellow;'>PM</span>";
     }
-    //hr = (hr == 0) ? 12 : hr;
     if (hr == 0)
     {
         hr = 12;
